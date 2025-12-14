@@ -1,0 +1,10 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "dependencies": ["."],
+  "graphs": {
+    "support": "./graph.py:support",
+    "admin": "./graph.py:admin"
+  },
+  "env": "../.env",
+  "image_distro": "wolfi"
+}
